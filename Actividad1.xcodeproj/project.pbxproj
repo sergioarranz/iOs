@@ -8,8 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1388F3CED8373123A7342429 /* Pods_Actividad1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1224FC649C0481F6B047C3DD /* Pods_Actividad1.framework */; };
+		490EC9261EAA4BDE007DA82C /* Coche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC9251EAA4BDE007DA82C /* Coche.swift */; };
+		490EC92A1EAA6599007DA82C /* VCMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC9291EAA6599007DA82C /* VCMapa.swift */; };
+		49B6262F1E97E83C00BCD6EE /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6262E1E97E83C00BCD6EE /* logo1.png */; };
+		49B626301E97E83C00BCD6EE /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6262E1E97E83C00BCD6EE /* logo1.png */; };
+		49B626311E97E83C00BCD6EE /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6262E1E97E83C00BCD6EE /* logo1.png */; };
+		49B626331E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */; };
+		49B626341E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */; };
+		49B626351E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */; };
+		49B626371E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */; };
+		49B626381E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */; };
+		49B626391E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */; };
+		49B6263B1E97FC3900BCD6EE /* playstation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263A1E97FC3900BCD6EE /* playstation.jpg */; };
+		49B6263C1E97FC3900BCD6EE /* playstation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263A1E97FC3900BCD6EE /* playstation.jpg */; };
+		49B6263D1E97FC3900BCD6EE /* playstation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263A1E97FC3900BCD6EE /* playstation.jpg */; };
+		49B6263F1E981A6A00BCD6EE /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263E1E981A6A00BCD6EE /* ios.png */; };
+		49B626401E981A6A00BCD6EE /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263E1E981A6A00BCD6EE /* ios.png */; };
+		49B626411E981A6A00BCD6EE /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263E1E981A6A00BCD6EE /* ios.png */; };
+		49B626431E981B2900BCD6EE /* psp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626421E981B2900BCD6EE /* psp.png */; };
+		49B626441E981B2900BCD6EE /* psp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626421E981B2900BCD6EE /* psp.png */; };
+		49B626451E981B2900BCD6EE /* psp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626421E981B2900BCD6EE /* psp.png */; };
+		49B626471E981B3500BCD6EE /* wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626461E981B3500BCD6EE /* wii.png */; };
+		49B626481E981B3500BCD6EE /* wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626461E981B3500BCD6EE /* wii.png */; };
+		49B626491E981B3500BCD6EE /* wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626461E981B3500BCD6EE /* wii.png */; };
+		49B6264B1E981B3C00BCD6EE /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264A1E981B3C00BCD6EE /* xbox.jpg */; };
+		49B6264C1E981B3C00BCD6EE /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264A1E981B3C00BCD6EE /* xbox.jpg */; };
+		49B6264D1E981B3C00BCD6EE /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264A1E981B3C00BCD6EE /* xbox.jpg */; };
+		49B6264F1E981B4900BCD6EE /* gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264E1E981B4900BCD6EE /* gameboy.jpg */; };
+		49B626501E981B4900BCD6EE /* gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264E1E981B4900BCD6EE /* gameboy.jpg */; };
+		49B626511E981B4900BCD6EE /* gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264E1E981B4900BCD6EE /* gameboy.jpg */; };
+		49D1C3A71EA6720F000913C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49D1C3A61EA6720F000913C7 /* GoogleService-Info.plist */; };
+		49D1C3A91EA676B0000913C7 /* LocationAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1C3A81EA676B0000913C7 /* LocationAdmin.swift */; };
+		49D6F26F1E93FEC800C9FAC6 /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D6F26E1E93FEC800C9FAC6 /* VCPrincipal.swift */; };
+		49D6F2711E94095000C9FAC6 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D6F2701E94095000C9FAC6 /* TVCMiCelda.swift */; };
 		6DD85D08D97E43BED2DF6E27 /* Pods_Actividad1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BD665AF0FD63BDCACCA86F /* Pods_Actividad1Tests.framework */; };
-		8B0CA83A1E7A900A00A3FEBD /* Celda1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CA8391E7A900A00A3FEBD /* Celda1.swift */; };
 		8B524DBB1E83C73E00F41212 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B524DBA1E83C73E00F41212 /* DataHolder.swift */; };
 		8B524DBD1E83DBE400F41212 /* VCRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B524DBC1E83DBE400F41212 /* VCRegistro.swift */; };
 		A8EAC6FF1E714EB800C54E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAC6FE1E714EB800C54E7A /* AppDelegate.swift */; };
@@ -20,9 +52,6 @@
 		A8EAC7141E714EB900C54E7A /* Actividad1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAC7131E714EB900C54E7A /* Actividad1Tests.swift */; };
 		A8EAC71F1E714EB900C54E7A /* Actividad1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAC71E1E714EB900C54E7A /* Actividad1UITests.swift */; };
 		A8EAC72E1E71505C00C54E7A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EAC72D1E71505C00C54E7A /* MapKit.framework */; };
-		A8EAC7301E716BDE00C54E7A /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAC72F1E716BDE00C54E7A /* VCPrincipal.swift */; };
-		A8EAC7321E71708A00C54E7A /* VCItem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAC7311E71708A00C54E7A /* VCItem1.swift */; };
-		A8EAC7341E71709C00C54E7A /* VCItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAC7331E71709C00C54E7A /* VCItem2.swift */; };
 		DF3B0262C8AF6999DD790E1A /* Pods_Actividad1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BBC76D9E51322F074D150B /* Pods_Actividad1UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +77,22 @@
 		1224FC649C0481F6B047C3DD /* Pods_Actividad1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actividad1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BD665AF0FD63BDCACCA86F /* Pods_Actividad1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actividad1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A1E5ABD60B556CC1DB95EA /* Pods-Actividad1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad1Tests/Pods-Actividad1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		490EC9251EAA4BDE007DA82C /* Coche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coche.swift; sourceTree = "<group>"; };
+		490EC9291EAA6599007DA82C /* VCMapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapa.swift; sourceTree = "<group>"; };
+		49B6262E1E97E83C00BCD6EE /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCColeccionViewController.swift; sourceTree = "<group>"; };
+		49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCMiCelda2CollectionViewCell.swift; sourceTree = "<group>"; };
+		49B6263A1E97FC3900BCD6EE /* playstation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playstation.jpg; sourceTree = "<group>"; };
+		49B6263E1E981A6A00BCD6EE /* ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios.png; sourceTree = "<group>"; };
+		49B626421E981B2900BCD6EE /* psp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psp.png; sourceTree = "<group>"; };
+		49B626461E981B3500BCD6EE /* wii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wii.png; sourceTree = "<group>"; };
+		49B6264A1E981B3C00BCD6EE /* xbox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xbox.jpg; sourceTree = "<group>"; };
+		49B6264E1E981B4900BCD6EE /* gameboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gameboy.jpg; sourceTree = "<group>"; };
+		49D1C3A61EA6720F000913C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49D1C3A81EA676B0000913C7 /* LocationAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAdmin.swift; sourceTree = "<group>"; };
+		49D6F26E1E93FEC800C9FAC6 /* VCPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
+		49D6F2701E94095000C9FAC6 /* TVCMiCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
 		87BBC76D9E51322F074D150B /* Pods_Actividad1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actividad1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B0CA8391E7A900A00A3FEBD /* Celda1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celda1.swift; sourceTree = SOURCE_ROOT; };
 		8B524DBA1E83C73E00F41212 /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		8B524DBC1E83DBE400F41212 /* VCRegistro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRegistro.swift; sourceTree = "<group>"; };
 		9E64F740997D95D0C6A217A2 /* Pods-Actividad1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad1UITests/Pods-Actividad1UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,9 +111,6 @@
 		A8EAC71E1E714EB900C54E7A /* Actividad1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad1UITests.swift; sourceTree = "<group>"; };
 		A8EAC7201E714EB900C54E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8EAC72D1E71505C00C54E7A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		A8EAC72F1E716BDE00C54E7A /* VCPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
-		A8EAC7311E71708A00C54E7A /* VCItem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCItem1.swift; sourceTree = "<group>"; };
-		A8EAC7331E71709C00C54E7A /* VCItem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCItem2.swift; sourceTree = "<group>"; };
 		B08C67F0CF9D4FD24B5ABB19 /* Pods-Actividad1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad1UITests/Pods-Actividad1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E371A4936A7F80814AA4792C /* Pods-Actividad1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad1/Pods-Actividad1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,18 +182,29 @@
 		A8EAC6FD1E714EB800C54E7A /* Actividad1 */ = {
 			isa = PBXGroup;
 			children = (
+				49D1C3A61EA6720F000913C7 /* GoogleService-Info.plist */,
+				49B6264E1E981B4900BCD6EE /* gameboy.jpg */,
+				49B6264A1E981B3C00BCD6EE /* xbox.jpg */,
+				49B626461E981B3500BCD6EE /* wii.png */,
+				49B626421E981B2900BCD6EE /* psp.png */,
+				49B6263E1E981A6A00BCD6EE /* ios.png */,
+				49B6263A1E97FC3900BCD6EE /* playstation.jpg */,
+				49B6262E1E97E83C00BCD6EE /* logo1.png */,
 				A8EAC6FE1E714EB800C54E7A /* AppDelegate.swift */,
 				A8EAC7001E714EB800C54E7A /* ViewController.swift */,
 				A8EAC7021E714EB800C54E7A /* Main.storyboard */,
 				A8EAC7051E714EB800C54E7A /* Assets.xcassets */,
 				A8EAC7071E714EB800C54E7A /* LaunchScreen.storyboard */,
 				A8EAC70A1E714EB800C54E7A /* Info.plist */,
-				A8EAC72F1E716BDE00C54E7A /* VCPrincipal.swift */,
-				A8EAC7311E71708A00C54E7A /* VCItem1.swift */,
-				A8EAC7331E71709C00C54E7A /* VCItem2.swift */,
-				8B0CA8391E7A900A00A3FEBD /* Celda1.swift */,
 				8B524DBA1E83C73E00F41212 /* DataHolder.swift */,
 				8B524DBC1E83DBE400F41212 /* VCRegistro.swift */,
+				49D6F26E1E93FEC800C9FAC6 /* VCPrincipal.swift */,
+				49D6F2701E94095000C9FAC6 /* TVCMiCelda.swift */,
+				49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */,
+				49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */,
+				49D1C3A81EA676B0000913C7 /* LocationAdmin.swift */,
+				490EC9251EAA4BDE007DA82C /* Coche.swift */,
+				490EC9291EAA6599007DA82C /* VCMapa.swift */,
 			);
 			path = Actividad1;
 			sourceTree = "<group>";
@@ -308,8 +359,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B626431E981B2900BCD6EE /* psp.png in Resources */,
 				A8EAC7091E714EB800C54E7A /* LaunchScreen.storyboard in Resources */,
 				A8EAC7061E714EB800C54E7A /* Assets.xcassets in Resources */,
+				49B626471E981B3500BCD6EE /* wii.png in Resources */,
+				49B6264B1E981B3C00BCD6EE /* xbox.jpg in Resources */,
+				49B6263B1E97FC3900BCD6EE /* playstation.jpg in Resources */,
+				49B6263F1E981A6A00BCD6EE /* ios.png in Resources */,
+				49B6262F1E97E83C00BCD6EE /* logo1.png in Resources */,
+				49D1C3A71EA6720F000913C7 /* GoogleService-Info.plist in Resources */,
+				49B6264F1E981B4900BCD6EE /* gameboy.jpg in Resources */,
 				A8EAC7041E714EB800C54E7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +377,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B626481E981B3500BCD6EE /* wii.png in Resources */,
+				49B626401E981A6A00BCD6EE /* ios.png in Resources */,
+				49B626501E981B4900BCD6EE /* gameboy.jpg in Resources */,
+				49B626441E981B2900BCD6EE /* psp.png in Resources */,
+				49B6263C1E97FC3900BCD6EE /* playstation.jpg in Resources */,
+				49B6264C1E981B3C00BCD6EE /* xbox.jpg in Resources */,
+				49B626301E97E83C00BCD6EE /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +391,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B626491E981B3500BCD6EE /* wii.png in Resources */,
+				49B626411E981A6A00BCD6EE /* ios.png in Resources */,
+				49B626511E981B4900BCD6EE /* gameboy.jpg in Resources */,
+				49B626451E981B2900BCD6EE /* psp.png in Resources */,
+				49B6263D1E97FC3900BCD6EE /* playstation.jpg in Resources */,
+				49B6264D1E981B3C00BCD6EE /* xbox.jpg in Resources */,
+				49B626311E97E83C00BCD6EE /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +431,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		47CCDE1FDB5E788C538C425F /* [CP] Copy Pods Resources */ = {
@@ -403,7 +476,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		87597D9F3E4919B8FFCB2A18 /* [CP] Copy Pods Resources */ = {
@@ -433,7 +506,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9D111896324A2361A2AACC59 /* [CP] Embed Pods Frameworks */ = {
@@ -473,14 +546,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490EC92A1EAA6599007DA82C /* VCMapa.swift in Sources */,
+				49B626371E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */,
 				A8EAC7011E714EB800C54E7A /* ViewController.swift in Sources */,
-				8B0CA83A1E7A900A00A3FEBD /* Celda1.swift in Sources */,
-				A8EAC7321E71708A00C54E7A /* VCItem1.swift in Sources */,
+				49D1C3A91EA676B0000913C7 /* LocationAdmin.swift in Sources */,
+				49B626331E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */,
 				8B524DBD1E83DBE400F41212 /* VCRegistro.swift in Sources */,
-				A8EAC7301E716BDE00C54E7A /* VCPrincipal.swift in Sources */,
 				A8EAC6FF1E714EB800C54E7A /* AppDelegate.swift in Sources */,
+				490EC9261EAA4BDE007DA82C /* Coche.swift in Sources */,
+				49D6F2711E94095000C9FAC6 /* TVCMiCelda.swift in Sources */,
 				8B524DBB1E83C73E00F41212 /* DataHolder.swift in Sources */,
-				A8EAC7341E71709C00C54E7A /* VCItem2.swift in Sources */,
+				49D6F26F1E93FEC800C9FAC6 /* VCPrincipal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +564,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B626381E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */,
 				A8EAC7141E714EB900C54E7A /* Actividad1Tests.swift in Sources */,
+				49B626341E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +574,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B626391E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */,
 				A8EAC71F1E714EB900C54E7A /* Actividad1UITests.swift in Sources */,
+				49B626351E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +713,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Actividad1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UTAD.Actividad1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergio-Arranz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -646,7 +726,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Actividad1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UTAD.Actividad1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergio-Arranz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -2,28 +2,20 @@
 //  VCRegistro.swift
 //  Actividad1
 //
-//  Created by developer on 23/3/17.
-//  Copyright © 2017 Jorge López Fernández. All rights reserved.
+//  Created by Sergio Arranz on 23/3/17.
+//  Copyright © 2017 Sergio Arranz. All rights reserved.
 //
 
 import UIKit
+import FirebaseAuth
 
 class VCRegistro: UIViewController {
     
-    @IBOutlet var txtUserR:UITextField?
-    @IBOutlet var txtPassR:UITextField?
-    @IBOutlet var txtRepPassR:UITextField?
-    @IBOutlet var txtEmailR:UITextField?
+    @IBOutlet var txtfEmail:UITextField?
+    @IBOutlet var txtfPass:UITextField?
     
     
-    @IBAction func SuccessReg(_ sender: Any) {
-        if (txtPassR?.text==txtRepPassR?.text) {
-            DataHolder.SHI.sUserR=txtUserR?.text
-            DataHolder.SHI.sPassR=txtPassR?.text
-            DataHolder.SHI.sEmailR=txtEmailR?.text
-            self.performSegue(withIdentifier: "Trans2", sender: self)
-        }
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +27,17 @@ class VCRegistro: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    @IBAction func accionBotonRegistrar() {
+       
+        FIRAuth.auth()?.createUser(withEmail: (txtfEmail?.text)!, password: (txtfPass?.text)!) { (user, error) in
+            if(error==nil){
+                self.performSegue(withIdentifier: "trregistro", sender: self)
+            } else {
+                print("ERROR EN REGISTRO: ", error!)
+            }
+        }
+        
+    }
 
     /*
     // MARK: - Navigation

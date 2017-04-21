@@ -6,7 +6,10 @@ target 'Actividad1' do
   use_frameworks!
 
   # Pods for Actividad1
-  pod 'QuickBlox'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
   target 'Actividad1Tests' do
     inherit! :search_paths
