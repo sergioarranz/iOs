@@ -64,6 +64,8 @@ class VCPrincipal: UIViewController, UITableViewDelegate, UITableViewDataSource 
         
         let cochei:Coche=DataHolder.SHI.arCoches![indexPath.row]
         cell.lblNombre?.text=cochei.sNombre
+        cell.descargarImagen(ruta: cochei.sRutaImagenP!)
+        
         /*if(indexPath.row==0){
             cell.lblNombre?.text="Coche 1"
         } else if (indexPath.row==1) {

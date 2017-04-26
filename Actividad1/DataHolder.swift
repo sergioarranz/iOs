@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseDatabase
+import FirebaseStorage
 
 class DataHolder: NSObject {
     
@@ -16,7 +17,9 @@ class DataHolder: NSObject {
     
     var locationAdmin:LocationAdmin?
     var firDataBaseRef: FIRDatabaseReference!
+    var firStorage:FIRStorage?
     var arCoches:Array<Coche>?
+    var firStorageRef:FIRStorageReference?
     //var delegate:DataHolderDelegate?
     
     var sUserR:String?
@@ -28,7 +31,8 @@ class DataHolder: NSObject {
     func initFirebase(){
         FIRApp.configure()
         firDataBaseRef = FIRDatabase.database().reference()
-
+        firStorage = FIRStorage.storage()
+        firStorageRef = firStorage?.reference()
     }
    
     func initLocationAdmin() {
