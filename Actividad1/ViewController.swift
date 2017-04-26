@@ -13,20 +13,20 @@ class ViewController: UIViewController {
     
     @IBOutlet var txtUser:UITextField?
     @IBOutlet var txtPass:UITextField?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
     
     @IBAction func SuccessLogin(_ sender: Any) {
         
@@ -35,16 +35,12 @@ class ViewController: UIViewController {
             if(error==nil){
                 self.performSegue(withIdentifier: "Trans1", sender: self)
             } else {
-                print("ERROR EN REGISTRO: ", error!)
+                var alertView = UIAlertView(title: "Incorrect Username or Password", message: "Try Again!", delegate: self, cancelButtonTitle: "OK")
+                alertView.show()
             }
-
+            
         }
-        /*
-        if (txtUser?.text?.isEqual(DataHolder.SHI.sEmailR))!&&((txtPass?.text)?.isEqual(DataHolder.SHI.sPassR))!{
-            self.performSegue(withIdentifier: "Trans1", sender: self)
-        }*/
         
-
-}
-
+    }
+    
 }

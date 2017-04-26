@@ -10,33 +10,14 @@
 		1388F3CED8373123A7342429 /* Pods_Actividad1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1224FC649C0481F6B047C3DD /* Pods_Actividad1.framework */; };
 		490EC9261EAA4BDE007DA82C /* Coche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC9251EAA4BDE007DA82C /* Coche.swift */; };
 		490EC92A1EAA6599007DA82C /* VCMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC9291EAA6599007DA82C /* VCMapa.swift */; };
-		49B6262F1E97E83C00BCD6EE /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6262E1E97E83C00BCD6EE /* logo1.png */; };
-		49B626301E97E83C00BCD6EE /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6262E1E97E83C00BCD6EE /* logo1.png */; };
-		49B626311E97E83C00BCD6EE /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6262E1E97E83C00BCD6EE /* logo1.png */; };
+		496E01EE1EB0E61800E5BD67 /* Consola.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E01ED1EB0E61800E5BD67 /* Consola.swift */; };
+		496E01F01EB0F04100E5BD67 /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 496E01EF1EB0F04100E5BD67 /* ios.png */; };
 		49B626331E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */; };
 		49B626341E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */; };
 		49B626351E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */; };
 		49B626371E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */; };
 		49B626381E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */; };
 		49B626391E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */; };
-		49B6263B1E97FC3900BCD6EE /* playstation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263A1E97FC3900BCD6EE /* playstation.jpg */; };
-		49B6263C1E97FC3900BCD6EE /* playstation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263A1E97FC3900BCD6EE /* playstation.jpg */; };
-		49B6263D1E97FC3900BCD6EE /* playstation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263A1E97FC3900BCD6EE /* playstation.jpg */; };
-		49B6263F1E981A6A00BCD6EE /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263E1E981A6A00BCD6EE /* ios.png */; };
-		49B626401E981A6A00BCD6EE /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263E1E981A6A00BCD6EE /* ios.png */; };
-		49B626411E981A6A00BCD6EE /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B6263E1E981A6A00BCD6EE /* ios.png */; };
-		49B626431E981B2900BCD6EE /* psp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626421E981B2900BCD6EE /* psp.png */; };
-		49B626441E981B2900BCD6EE /* psp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626421E981B2900BCD6EE /* psp.png */; };
-		49B626451E981B2900BCD6EE /* psp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626421E981B2900BCD6EE /* psp.png */; };
-		49B626471E981B3500BCD6EE /* wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626461E981B3500BCD6EE /* wii.png */; };
-		49B626481E981B3500BCD6EE /* wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626461E981B3500BCD6EE /* wii.png */; };
-		49B626491E981B3500BCD6EE /* wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B626461E981B3500BCD6EE /* wii.png */; };
-		49B6264B1E981B3C00BCD6EE /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264A1E981B3C00BCD6EE /* xbox.jpg */; };
-		49B6264C1E981B3C00BCD6EE /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264A1E981B3C00BCD6EE /* xbox.jpg */; };
-		49B6264D1E981B3C00BCD6EE /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264A1E981B3C00BCD6EE /* xbox.jpg */; };
-		49B6264F1E981B4900BCD6EE /* gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264E1E981B4900BCD6EE /* gameboy.jpg */; };
-		49B626501E981B4900BCD6EE /* gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264E1E981B4900BCD6EE /* gameboy.jpg */; };
-		49B626511E981B4900BCD6EE /* gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B6264E1E981B4900BCD6EE /* gameboy.jpg */; };
 		49D1C3A71EA6720F000913C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49D1C3A61EA6720F000913C7 /* GoogleService-Info.plist */; };
 		49D1C3A91EA676B0000913C7 /* LocationAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1C3A81EA676B0000913C7 /* LocationAdmin.swift */; };
 		49D6F26F1E93FEC800C9FAC6 /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D6F26E1E93FEC800C9FAC6 /* VCPrincipal.swift */; };
@@ -79,15 +60,10 @@
 		44A1E5ABD60B556CC1DB95EA /* Pods-Actividad1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad1Tests/Pods-Actividad1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		490EC9251EAA4BDE007DA82C /* Coche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coche.swift; sourceTree = "<group>"; };
 		490EC9291EAA6599007DA82C /* VCMapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapa.swift; sourceTree = "<group>"; };
-		49B6262E1E97E83C00BCD6EE /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		496E01ED1EB0E61800E5BD67 /* Consola.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consola.swift; sourceTree = "<group>"; };
+		496E01EF1EB0F04100E5BD67 /* ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios.png; sourceTree = "<group>"; };
 		49B626321E97F0FD00BCD6EE /* VCColeccionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCColeccionViewController.swift; sourceTree = "<group>"; };
 		49B626361E97F65800BCD6EE /* CVCMiCelda2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCMiCelda2CollectionViewCell.swift; sourceTree = "<group>"; };
-		49B6263A1E97FC3900BCD6EE /* playstation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playstation.jpg; sourceTree = "<group>"; };
-		49B6263E1E981A6A00BCD6EE /* ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios.png; sourceTree = "<group>"; };
-		49B626421E981B2900BCD6EE /* psp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psp.png; sourceTree = "<group>"; };
-		49B626461E981B3500BCD6EE /* wii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wii.png; sourceTree = "<group>"; };
-		49B6264A1E981B3C00BCD6EE /* xbox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xbox.jpg; sourceTree = "<group>"; };
-		49B6264E1E981B4900BCD6EE /* gameboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gameboy.jpg; sourceTree = "<group>"; };
 		49D1C3A61EA6720F000913C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49D1C3A81EA676B0000913C7 /* LocationAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAdmin.swift; sourceTree = "<group>"; };
 		49D6F26E1E93FEC800C9FAC6 /* VCPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
@@ -182,14 +158,8 @@
 		A8EAC6FD1E714EB800C54E7A /* Actividad1 */ = {
 			isa = PBXGroup;
 			children = (
+				496E01EF1EB0F04100E5BD67 /* ios.png */,
 				49D1C3A61EA6720F000913C7 /* GoogleService-Info.plist */,
-				49B6264E1E981B4900BCD6EE /* gameboy.jpg */,
-				49B6264A1E981B3C00BCD6EE /* xbox.jpg */,
-				49B626461E981B3500BCD6EE /* wii.png */,
-				49B626421E981B2900BCD6EE /* psp.png */,
-				49B6263E1E981A6A00BCD6EE /* ios.png */,
-				49B6263A1E97FC3900BCD6EE /* playstation.jpg */,
-				49B6262E1E97E83C00BCD6EE /* logo1.png */,
 				A8EAC6FE1E714EB800C54E7A /* AppDelegate.swift */,
 				A8EAC7001E714EB800C54E7A /* ViewController.swift */,
 				A8EAC7021E714EB800C54E7A /* Main.storyboard */,
@@ -205,6 +175,7 @@
 				49D1C3A81EA676B0000913C7 /* LocationAdmin.swift */,
 				490EC9251EAA4BDE007DA82C /* Coche.swift */,
 				490EC9291EAA6599007DA82C /* VCMapa.swift */,
+				496E01ED1EB0E61800E5BD67 /* Consola.swift */,
 			);
 			path = Actividad1;
 			sourceTree = "<group>";
@@ -359,17 +330,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B626431E981B2900BCD6EE /* psp.png in Resources */,
 				A8EAC7091E714EB800C54E7A /* LaunchScreen.storyboard in Resources */,
 				A8EAC7061E714EB800C54E7A /* Assets.xcassets in Resources */,
-				49B626471E981B3500BCD6EE /* wii.png in Resources */,
-				49B6264B1E981B3C00BCD6EE /* xbox.jpg in Resources */,
-				49B6263B1E97FC3900BCD6EE /* playstation.jpg in Resources */,
-				49B6263F1E981A6A00BCD6EE /* ios.png in Resources */,
-				49B6262F1E97E83C00BCD6EE /* logo1.png in Resources */,
 				49D1C3A71EA6720F000913C7 /* GoogleService-Info.plist in Resources */,
-				49B6264F1E981B4900BCD6EE /* gameboy.jpg in Resources */,
 				A8EAC7041E714EB800C54E7A /* Main.storyboard in Resources */,
+				496E01F01EB0F04100E5BD67 /* ios.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,13 +342,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B626481E981B3500BCD6EE /* wii.png in Resources */,
-				49B626401E981A6A00BCD6EE /* ios.png in Resources */,
-				49B626501E981B4900BCD6EE /* gameboy.jpg in Resources */,
-				49B626441E981B2900BCD6EE /* psp.png in Resources */,
-				49B6263C1E97FC3900BCD6EE /* playstation.jpg in Resources */,
-				49B6264C1E981B3C00BCD6EE /* xbox.jpg in Resources */,
-				49B626301E97E83C00BCD6EE /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,13 +349,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B626491E981B3500BCD6EE /* wii.png in Resources */,
-				49B626411E981A6A00BCD6EE /* ios.png in Resources */,
-				49B626511E981B4900BCD6EE /* gameboy.jpg in Resources */,
-				49B626451E981B2900BCD6EE /* psp.png in Resources */,
-				49B6263D1E97FC3900BCD6EE /* playstation.jpg in Resources */,
-				49B6264D1E981B3C00BCD6EE /* xbox.jpg in Resources */,
-				49B626311E97E83C00BCD6EE /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +504,7 @@
 				49B626331E97F0FD00BCD6EE /* VCColeccionViewController.swift in Sources */,
 				8B524DBD1E83DBE400F41212 /* VCRegistro.swift in Sources */,
 				A8EAC6FF1E714EB800C54E7A /* AppDelegate.swift in Sources */,
+				496E01EE1EB0E61800E5BD67 /* Consola.swift in Sources */,
 				490EC9261EAA4BDE007DA82C /* Coche.swift in Sources */,
 				49D6F2711E94095000C9FAC6 /* TVCMiCelda.swift in Sources */,
 				8B524DBB1E83C73E00F41212 /* DataHolder.swift in Sources */,

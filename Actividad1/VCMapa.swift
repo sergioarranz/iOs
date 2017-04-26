@@ -11,7 +11,7 @@ import MapKit
 import FirebaseDatabase
 
 class VCMapa: UIViewController, MKMapViewDelegate, LocationAdminDelegate {
-
+    
     @IBOutlet var MiMapa:MKMapView?
     var pines:[String:MKAnnotation]? = [:]
     
@@ -39,13 +39,13 @@ class VCMapa: UIViewController, MKMapViewDelegate, LocationAdminDelegate {
         })
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-   
+    
     
     
     func agregarPin(coordenada:CLLocationCoordinate2D, titulo varTitulo:String){
@@ -74,15 +74,15 @@ class VCMapa: UIViewController, MKMapViewDelegate, LocationAdminDelegate {
         MiMapa?.setRegion(region, animated: true)
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

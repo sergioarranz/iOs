@@ -7,10 +7,27 @@
 //
 
 import UIKit
+import FirebaseStorage
 
-class CVCMiCelda2CollectionViewCell: UICollectionViewCell {
+class CVCMiCelda2CollectionViewCell: UICollectionViewCell,DataHolderDelegate {
     
     @IBOutlet var imgvMain:UIImageView?
     @IBOutlet var lblNombre:UILabel?
-
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    
+    func descargarImagen(ruta:String) {
+        self.imgvMain?.image=nil
+        DataHolder.SHI.getImage(clave: ruta, getDelegate: self)
+        
+        
+    }
+    func dataHolderImagenDescargada(imagen: UIImage) {
+        self.imgvMain?.image=imagen
+    }
+    
 }
